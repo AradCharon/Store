@@ -1,6 +1,6 @@
 package payment;
 
-class BitcoinPayment implements PaymentStrategy {
+public class BitcoinPayment implements PaymentStrategy {
     private String walletAddress;
 
     public BitcoinPayment(String walletAddress) {

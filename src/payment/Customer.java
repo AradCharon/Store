@@ -2,7 +2,7 @@ package payment;
 
 import java.util.ArrayList;
 
-abstract class Customer {
+public abstract class Customer {
     protected String name;
     protected ArrayList<String> paymentHistory;
 

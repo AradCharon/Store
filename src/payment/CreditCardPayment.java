@@ -1,6 +1,6 @@
 package payment;
 
-class CreditCardPayment implements PaymentStrategy {
+public class CreditCardPayment implements PaymentStrategy {
     private String cardNumber;
     private String cardHolderName;
 

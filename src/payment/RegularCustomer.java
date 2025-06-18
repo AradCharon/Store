@@ -1,6 +1,6 @@
 package payment;
 
-class RegularCustomer extends Customer {
+public class RegularCustomer extends Customer {
     public RegularCustomer(String name) {
         super(name);
     }
